@@ -5,8 +5,7 @@ using System.Data;
 namespace SPHWM02 {
 
 public class Program {
-    static Process thisProc = Process.GetCurrentProcess();
-    static string execPath = thisProc.MainModule?.FileName!;
+
     public static int Main(string[] args) {
         foreach (var arg in args) {
             if (arg == "--daemonize") {
@@ -14,11 +13,18 @@ public class Program {
             }
         }
 
+        Process thisProc = Process.GetCurrentProcess();
+        if (thisProc.MainModule == null) {
+            WriteLine("Could not find main module of this process.");
+            return 1;
+        }
+        string thisExePath = thisProc.MainModule.FileName;
+
         WriteLine("Entering interactive mode.");
         Process daemonProc = new Process {
             StartInfo =
                 new ProcessStartInfo {
-                    FileName = execPath,
+                    FileName = thisExePath,
                     Arguments = "--daemonize",
                     RedirectStandardOutput = true,
                     RedirectStandardError = true,
@@ -27,21 +33,29 @@ public class Program {
                     CreateNoWindow = false,
                 },
         };
-        daemonProc.OutputDataReceived += (sender, e) => {
-            if (e.Data != null) {
-                WriteLine($"Daemon: {e.Data}");
-            }
-        };
         daemonProc.Start();
         daemonProc.BeginOutputReadLine();
         WriteLine("Daemon process started.");
 
         bool shouldTerminate = false;
+        bool promptDrawn = false;
         string input;
 
+        daemonProc.OutputDataReceived += (sender, e) => {
+            if (e.Data != null) {
+                if (promptDrawn) {
+                    Write("\x1b[2K\x1b[0G");
+                }
+                WriteLine($"Daemon: {e.Data}");
+                if (promptDrawn)
+                    Write("> ");
+            }
+        };
         while (!shouldTerminate) {
             Write("> ");
+            promptDrawn = true;
             input = ReadLine() ?? "";
+            promptDrawn = false;
             switch (input) {
             case "kill":
                 WriteLine("Forcefully killing the daemon...");
@@ -56,7 +70,6 @@ public class Program {
                 break;
             default:
                 daemonProc.StandardInput.WriteLine(input);
-                Thread.Sleep(100);
                 break;
             }
         }
