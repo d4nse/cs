@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Windows.Forms;
 
@@ -70,5 +71,30 @@ namespace TextDrawer
             /*устанавливаем новое значение ширины окна*/
             this.Width = width;
         }
+        public void SafeSetText(string text)
+        {
+            if (this.InvokeRequired)
+            {
+                this.Invoke(new Action<string>(SafeSetText), text);
+            }
+            else
+            {
+                SourceText = text;
+                Panel1_Paint(panel1, new PaintEventArgs(panel1.CreateGraphics(), panel1.ClientRectangle));
+            }
+        }
+        public void SafeMove(Point newLocation, int width)
+        {
+            if (this.InvokeRequired)
+            {
+                this.Invoke(new Action<Point, int>(SafeMove), newLocation, width);
+            }
+            else
+            {
+                this.Location = newLocation;
+                this.Width = width;
+            }
+        }
+
     }
 }

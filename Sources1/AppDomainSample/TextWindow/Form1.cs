@@ -25,13 +25,17 @@ namespace TextWindow
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             /*вызываем метд SetText главного окна приложения TextDrawer*/
-            DrawerModule.GetType("TextDrawer.Form1").GetMethod("SetText").Invoke(Drawer, new object[]{textBox1.Text});
+            DrawerModule.GetType("TextDrawer.Form1")
+                .GetMethod("SafeSetText")
+                .Invoke(Drawer, new object[]{textBox1.Text});
         }
 
         private void Form1_LocationChanged(object sender, EventArgs e)
         {
             /*вызываем метд Move главного окна приложения TextDrawer*/
-            DrawerModule.GetType("TextDrawer.Form1").GetMethod("Move").Invoke(Drawer, new object[] { new Point(this.Location.X, this.Location.Y + this.Height), this.Width });
+            DrawerModule.GetType("TextDrawer.Form1")
+                .GetMethod("SafeMove")
+                .Invoke(Drawer, new object[] { new Point(this.Location.X, this.Location.Y + this.Height), this.Width });
         }
     }
 }

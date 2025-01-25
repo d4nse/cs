@@ -1,0 +1,118 @@
+using System;
+using System.Runtime.InteropServices;
+using System.Threading;
+using System.Windows.Forms;
+
+namespace topCS
+{
+    public partial class Form1 : Form
+    {
+        // Импорт функции MessageBox из user32.dll с переименованием
+        [DllImport("user32.dll", CharSet = CharSet.Unicode)]
+        public static extern int MessageBoxW(IntPtr hWnd, string text, string caption, uint type);
+
+        [DllImport("user32.dll", SetLastError = true)]
+        public static extern IntPtr FindWindow(string lpClassName, string lpWindowName);
+
+        [DllImport("user32.dll", CharSet = CharSet.Auto)]
+        public static extern IntPtr SendMessage(IntPtr hWnd, uint Msg, IntPtr wParam, IntPtr lParam);
+
+        // Константы для сообщений
+        const uint WM_SETTEXT = 0x000C; // Сообщение для изменения текста заголовка окна
+        const uint WM_CLOSE = 0x0010;   // Сообщение для закрытия окна
+
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        // Обработчик события Load для формы
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            // Задание 1: Отображение MessageBox с "Hello, World!"
+            MessageBoxW(IntPtr.Zero, "Hello, World!", "Сообщение", 0);
+        }
+
+        // Кнопка 2: Игра "Угадай число"
+        private void buttonGuessNumber_Click(object sender, EventArgs e)
+        {
+            int min = 0;
+            int max = 100;
+            bool isGuessed = false;
+
+            while (!isGuessed)
+            {
+                int guess = (min + max) / 2;
+                // Запрос пользователя
+                int result = MessageBoxW(IntPtr.Zero, $"Ваше число {guess}?", "Угадай число", 3); // 3 = Yes/No/Cancel
+
+                if (result == 6) // Yes
+                {
+                    MessageBoxW(IntPtr.Zero, "Ура! Я угадал!", "Победа", 0);
+                    isGuessed = true;
+                }
+                else if (result == 7) // No
+                {
+                    result = MessageBoxW(IntPtr.Zero, "Мое число больше?", "Уточнение", 3); // 3 = Yes/No/Cancel
+                    if (result == 6) // Yes
+                    {
+                        min = guess + 1;
+                    }
+                    else if (result == 7) // No
+                    {
+                        max = guess - 1;
+                    }
+                    else // Cancel
+                    {
+                        break;
+                    }
+                }
+                else // Cancel
+                {
+                    break;
+                }
+            }
+        }
+
+        // Кнопка 3: Закрытие окна Блокнота
+        private void buttonCloseNotepad_Click(object sender, EventArgs e)
+        {
+            // Поиск окна Блокнота
+            IntPtr hWnd = FindWindow("Notepad", null);
+            if (hWnd != IntPtr.Zero)
+            {
+                // Отправка сообщения о закрытии окна
+                SendMessage(hWnd, WM_CLOSE, IntPtr.Zero, IntPtr.Zero);
+                MessageBox.Show("Окно Блокнота закрыто.");
+            }
+            else
+            {
+                MessageBox.Show("Окно Блокнота не найдено.");
+            }
+        }
+
+        // Кнопка 4: Обновление заголовка окна Блокнота текущим временем
+        private void buttonUpdateNotepadTitle_Click(object sender, EventArgs e)
+        {
+            // Поиск окна Блокнота
+            IntPtr hWnd = FindWindow("Notepad", null);
+            if (hWnd != IntPtr.Zero)
+            {
+                // Запуск таймера для обновления заголовка
+                new Thread(() =>
+                {
+                    while (true)
+                    {
+                        string currentTime = DateTime.Now.ToString("HH:mm:ss");
+                        SendMessage(hWnd, WM_SETTEXT, IntPtr.Zero, Marshal.StringToHGlobalUni(currentTime));
+                        Thread.Sleep(1000); // Пауза 1 секунда
+                    }
+                }).Start();
+            }
+            else
+            {
+                MessageBox.Show("Окно Блокнота не найдено.");
+            }
+        }
+    }
+}
