@@ -1,0 +1,18 @@
+﻿<Window x:Class="PART2.WordCounter"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PART2"
+        mc:Ignorable="d"
+        Title="WordCounter" Height="450" Width="307">
+    <Grid>
+        <Button x:Name="selectDirectoryBtn" Content="Select Directory" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Click="selectDirectoryBtn_Click" Height="30" Width="100"/>
+        <Label x:Name="selectedDirectoryLabel" Content="No directory selected." HorizontalAlignment="Center" Margin="0,45,0,0" VerticalAlignment="Top" Width="287"/>
+        <TextBox x:Name="selectWordBox" HorizontalAlignment="Left" Margin="10,115,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="171" Height="25" TextChanged="selectWordBox_TextChanged"/>
+        <Label Content="Type in the word to search for:" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="outputBox" HorizontalAlignment="Left" Margin="10,169,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="266" Height="159"/>
+        <Label Content="Output" HorizontalAlignment="Left" Margin="10,145,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
