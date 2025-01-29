@@ -1,0 +1,6 @@
+C:\Users\Ефимов\Downloads\cs\Sources1\AbortThread\AbortThread\bin\Debug\AbortThread.exe
+C:\Users\Ефимов\Downloads\cs\Sources1\AbortThread\AbortThread\bin\Debug\AbortThread.pdb
+C:\Users\Ефимов\Downloads\cs\Sources1\AbortThread\AbortThread\obj\Debug\AbortThread.csproj.AssemblyReference.cache
+C:\Users\Ефимов\Downloads\cs\Sources1\AbortThread\AbortThread\obj\Debug\AbortThread.csproj.CoreCompileInputs.cache
+C:\Users\Ефимов\Downloads\cs\Sources1\AbortThread\AbortThread\obj\Debug\AbortThread.exe
+C:\Users\Ефимов\Downloads\cs\Sources1\AbortThread\AbortThread\obj\Debug\AbortThread.pdb

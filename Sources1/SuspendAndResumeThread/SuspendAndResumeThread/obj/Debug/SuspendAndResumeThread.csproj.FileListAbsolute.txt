@@ -1,0 +1,6 @@
+C:\Users\Ефимов\Downloads\cs\Sources1\SuspendAndResumeThread\SuspendAndResumeThread\bin\Debug\SuspendAndResumeThread.exe
+C:\Users\Ефимов\Downloads\cs\Sources1\SuspendAndResumeThread\SuspendAndResumeThread\bin\Debug\SuspendAndResumeThread.pdb
+C:\Users\Ефимов\Downloads\cs\Sources1\SuspendAndResumeThread\SuspendAndResumeThread\obj\Debug\SuspendAndResumeThread.csproj.AssemblyReference.cache
+C:\Users\Ефимов\Downloads\cs\Sources1\SuspendAndResumeThread\SuspendAndResumeThread\obj\Debug\SuspendAndResumeThread.csproj.CoreCompileInputs.cache
+C:\Users\Ефимов\Downloads\cs\Sources1\SuspendAndResumeThread\SuspendAndResumeThread\obj\Debug\SuspendAndResumeThread.exe
+C:\Users\Ефимов\Downloads\cs\Sources1\SuspendAndResumeThread\SuspendAndResumeThread\obj\Debug\SuspendAndResumeThread.pdb

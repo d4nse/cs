@@ -17,6 +17,7 @@ namespace StaticThread
 
             // Выводим ID текущего потока в программе.
             Console.WriteLine(thisThread.GetHashCode().ToString());
+
         }
     }
 }

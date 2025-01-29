@@ -1,0 +1,8 @@
+C:\Users\Ефимов\Downloads\cs\Sources1\AppDomainSample\TextDrawer\bin\Debug\TextDrawer.exe
+C:\Users\Ефимов\Downloads\cs\Sources1\AppDomainSample\TextDrawer\bin\Debug\TextDrawer.pdb
+C:\Users\Ефимов\Downloads\cs\Sources1\AppDomainSample\TextDrawer\obj\Debug\TextDrawer.csproj.AssemblyReference.cache
+C:\Users\Ефимов\Downloads\cs\Sources1\AppDomainSample\TextDrawer\obj\Debug\TextDrawer.Properties.Resources.resources
+C:\Users\Ефимов\Downloads\cs\Sources1\AppDomainSample\TextDrawer\obj\Debug\TextDrawer.csproj.GenerateResource.cache
+C:\Users\Ефимов\Downloads\cs\Sources1\AppDomainSample\TextDrawer\obj\Debug\TextDrawer.csproj.CoreCompileInputs.cache
+C:\Users\Ефимов\Downloads\cs\Sources1\AppDomainSample\TextDrawer\obj\Debug\TextDrawer.exe
+C:\Users\Ефимов\Downloads\cs\Sources1\AppDomainSample\TextDrawer\obj\Debug\TextDrawer.pdb
