@@ -1,0 +1,14 @@
+﻿<Window x:Class="LimitedSelfSpawner.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LimitedSelfSpawner"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="378" Width="387">
+    <Grid>
+        <Label x:Name="instanceLabel" Content="" HorizontalAlignment="Center" Margin="0,41,0,0" VerticalAlignment="Top" Height="63" Width="212" FontSize="24"/>
+        <Button x:Name="spawnInstanceButton" Content="Spawn Instance" HorizontalAlignment="Center" Margin="0,181,0,0" VerticalAlignment="Top" Height="111" Width="214" FontSize="24" Click="spawnInstanceButton_Click"/>
+
+    </Grid>
+</Window>
