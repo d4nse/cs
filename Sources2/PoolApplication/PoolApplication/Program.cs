@@ -14,7 +14,8 @@ namespace PoolApplication
             Console.WriteLine("Основной поток: выполняем другие задачи");
             Thread.Sleep(1000);
             Console.WriteLine("Нажмите любую клавишу для продолжения...");
-            Console.ReadLine();
+            Console.ReadKey();
+
         }
 
         private static void WorkingElementMethod(object state)

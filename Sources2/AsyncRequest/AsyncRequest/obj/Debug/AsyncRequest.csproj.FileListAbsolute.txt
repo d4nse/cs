@@ -1,0 +1,6 @@
+C:\Users\Ефимов\Downloads\cs\Sources2\AsyncRequest\AsyncRequest\bin\Debug\AsyncRequest.exe
+C:\Users\Ефимов\Downloads\cs\Sources2\AsyncRequest\AsyncRequest\bin\Debug\AsyncRequest.pdb
+C:\Users\Ефимов\Downloads\cs\Sources2\AsyncRequest\AsyncRequest\obj\Debug\AsyncRequest.csproj.AssemblyReference.cache
+C:\Users\Ефимов\Downloads\cs\Sources2\AsyncRequest\AsyncRequest\obj\Debug\AsyncRequest.csproj.CoreCompileInputs.cache
+C:\Users\Ефимов\Downloads\cs\Sources2\AsyncRequest\AsyncRequest\obj\Debug\AsyncRequest.exe
+C:\Users\Ефимов\Downloads\cs\Sources2\AsyncRequest\AsyncRequest\obj\Debug\AsyncRequest.pdb

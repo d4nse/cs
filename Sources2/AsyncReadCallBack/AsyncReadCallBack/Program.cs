@@ -11,67 +11,9 @@ namespace AsyncReadCallBack
 
         static void Main(string[] args)
         {
-            //AsyncReadOneFileCallBack();
-            //AsyncReadOneFileCallBackAnonimus();
             AsyncReadMultiplyFilesAnonimus();
 
 
-        }
-
-        private static void AsyncReadOneFileCallBack()
-        {
-            Console.WriteLine("Основной поток ID = {0}",
-               Thread.CurrentThread.ManagedThreadId);
-
-            FileStream fs = new FileStream(@"../../Program.cs", FileMode.Open,
-                                           FileAccess.Read, FileShare.Read, 1024,
-                                           FileOptions.Asynchronous);
-
-            fs.BeginRead(staticData, 0, staticData.Length, ReadIsComplete, fs);
-            Console.ReadLine();
-        }
-
-        private static void ReadIsComplete(IAsyncResult ar)
-        {
-            Console.WriteLine("Чтение в потоке {0} закончено",
-               Thread.CurrentThread.ManagedThreadId);
-
-            FileStream fs = (FileStream)ar.AsyncState;
-
-            Int32 bytesRead = fs.EndRead(ar);
-
-            fs.Close();
-
-            Console.WriteLine("Количество считаных байт = {0}", bytesRead);
-            Console.WriteLine(Encoding.UTF8.GetString(staticData).Remove(0, 1));
-        }
-
-        private static void AsyncReadOneFileCallBackAnonimus()
-        {
-            Byte[] data = new Byte[100];
-
-            Console.WriteLine("Основной поток ID = {0}",
-               Thread.CurrentThread.ManagedThreadId);
-
-            FileStream fs = new FileStream(@"../../Program.cs", FileMode.Open,
-                                           FileAccess.Read, FileShare.Read, 1024,
-                                           FileOptions.Asynchronous);
-
-            fs.BeginRead(data, 0, data.Length, delegate(IAsyncResult ar)
-            {
-                Console.WriteLine("Чтение в потоке {0} закончено",
-                Thread.CurrentThread.ManagedThreadId);
-
-                Int32 bytesRead = fs.EndRead(ar);
-
-                fs.Close();
-
-                Console.WriteLine("Количество считаных байт = {0}", bytesRead);
-                Console.WriteLine(Encoding.UTF8.GetString(data).Remove(0, 1));
-
-                Console.ReadLine();
-            }, null);
-            Console.ReadLine();
         }
 
         private static void AsyncReadMultiplyFilesAnonimus()

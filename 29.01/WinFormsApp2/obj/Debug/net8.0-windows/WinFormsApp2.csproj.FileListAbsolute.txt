@@ -1,0 +1,17 @@
+C:\Users\Ефимов\Downloads\cs\29.01\WinFormsApp2\obj\Debug\net8.0-windows\WinFormsApp2.Form1.resources
+C:\Users\Ефимов\Downloads\cs\29.01\WinFormsApp2\obj\Debug\net8.0-windows\WinFormsApp2.csproj.GenerateResource.cache
+C:\Users\Ефимов\Downloads\cs\29.01\WinFormsApp2\obj\Debug\net8.0-windows\WinFormsApp2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ефимов\Downloads\cs\29.01\WinFormsApp2\obj\Debug\net8.0-windows\WinFormsApp2.AssemblyInfoInputs.cache
+C:\Users\Ефимов\Downloads\cs\29.01\WinFormsApp2\obj\Debug\net8.0-windows\WinFormsApp2.AssemblyInfo.cs
+C:\Users\Ефимов\Downloads\cs\29.01\WinFormsApp2\obj\Debug\net8.0-windows\WinFormsApp2.csproj.CoreCompileInputs.cache
+C:\Users\Ефимов\Downloads\cs\29.01\WinFormsApp2\obj\Debug\net8.0-windows\WinFormsApp2.sourcelink.json
+C:\Users\Ефимов\Downloads\cs\29.01\WinFormsApp2\bin\Debug\net8.0-windows\WinFormsApp2.exe
+C:\Users\Ефимов\Downloads\cs\29.01\WinFormsApp2\bin\Debug\net8.0-windows\WinFormsApp2.deps.json
+C:\Users\Ефимов\Downloads\cs\29.01\WinFormsApp2\bin\Debug\net8.0-windows\WinFormsApp2.runtimeconfig.json
+C:\Users\Ефимов\Downloads\cs\29.01\WinFormsApp2\bin\Debug\net8.0-windows\WinFormsApp2.dll
+C:\Users\Ефимов\Downloads\cs\29.01\WinFormsApp2\bin\Debug\net8.0-windows\WinFormsApp2.pdb
+C:\Users\Ефимов\Downloads\cs\29.01\WinFormsApp2\obj\Debug\net8.0-windows\WinFormsApp2.dll
+C:\Users\Ефимов\Downloads\cs\29.01\WinFormsApp2\obj\Debug\net8.0-windows\refint\WinFormsApp2.dll
+C:\Users\Ефимов\Downloads\cs\29.01\WinFormsApp2\obj\Debug\net8.0-windows\WinFormsApp2.pdb
+C:\Users\Ефимов\Downloads\cs\29.01\WinFormsApp2\obj\Debug\net8.0-windows\WinFormsApp2.genruntimeconfig.cache
+C:\Users\Ефимов\Downloads\cs\29.01\WinFormsApp2\obj\Debug\net8.0-windows\ref\WinFormsApp2.dll
