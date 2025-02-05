@@ -1,0 +1,16 @@
+﻿<Window x:Class="NLPApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NLPApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="476" Width="800" Left="0" Top="0" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch">
+    <Grid Margin="0,0,0,-16">
+        <Label Content="Basic Natural Language Processor. Input text below for analysis." HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="32" Width="463" FontSize="16"/>
+        <TextBox x:Name="inputBox" HorizontalAlignment="Left" Margin="10,42,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="463" Height="358" TextChanged="inputBox_TextChanged" FontSize="16"/>
+        <ProgressBar x:Name="progressBar" HorizontalAlignment="Left" Height="19" Margin="10,405,0,0" VerticalAlignment="Top" Width="463"/>
+        <TextBox x:Name="outputBox" HorizontalAlignment="Left" Margin="478,42,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="382" Width="312" FontSize="16" IsReadOnly="True"/>
+
+    </Grid>
+</Window>
