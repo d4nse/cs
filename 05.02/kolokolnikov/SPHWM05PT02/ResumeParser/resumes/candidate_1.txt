@@ -1,0 +1,4 @@
+Name: John Doe
+YearsOfExperience: 1
+City: Manchester
+SalaryExpectation: 69420
