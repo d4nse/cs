@@ -51,7 +51,6 @@ public static class Program {
         ConcurrentBag<(int a, int b, int res)> results = new();
         Parallel.For(start, end + 1, i => {
             for (int j = 1; j <= 10; ++j) {
-                string line = $"{i} * {j} = {i*j}";
                 results.Add((i, j, i * j));
             }
         });
