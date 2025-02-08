@@ -1,0 +1,20 @@
+﻿<Window x:Class="ExamApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExamApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="10">
+        <Button x:Name="loadWordsBtn" Content="Load Forbidden Words" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="156" Height="30" Click="loadWordsBtn_Click"/>
+        <TextBox x:Name="wordsFileBox" HorizontalAlignment="Left" Margin="171,12,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="320" Height="28" IsReadOnly="True"/>
+        <Button x:Name="startBtn" Content="Start" HorizontalAlignment="Left" Margin="10,45,0,0" VerticalAlignment="Top" Width="156" Height="30" Click="startBtn_Click" IsEnabled="False"/>
+        <Button x:Name="stopBtn" Content="Stop" HorizontalAlignment="Left" Margin="10,80,0,0" VerticalAlignment="Top" Width="156" Height="30" Click="stopBtn_Click" IsEnabled="False"/>
+        <Button x:Name="pauseBtn" Content="Pause" HorizontalAlignment="Left" Margin="10,115,0,0" VerticalAlignment="Top" Width="156" Height="30" Click="pauseBtn_Click" IsEnabled="False"/>
+        <TextBox x:Name="logBox" HorizontalAlignment="Left" Margin="171,80,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="599" Height="246" IsReadOnly="True"/>
+        <Label Content="Log" HorizontalAlignment="Left" Margin="171,45,0,0" VerticalAlignment="Top" Height="28"/>
+
+
+    </Grid>
+</Window>
