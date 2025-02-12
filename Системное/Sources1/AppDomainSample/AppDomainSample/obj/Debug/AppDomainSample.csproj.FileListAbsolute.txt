@@ -1,8 +1,0 @@
-C:\Users\Ефимов\Downloads\cs\Sources1\AppDomainSample\AppDomainSample\bin\Debug\AppDomainDynamicUnload.exe
-C:\Users\Ефимов\Downloads\cs\Sources1\AppDomainSample\AppDomainSample\bin\Debug\AppDomainDynamicUnload.pdb
-C:\Users\Ефимов\Downloads\cs\Sources1\AppDomainSample\AppDomainSample\obj\Debug\AppDomainSample.csproj.AssemblyReference.cache
-C:\Users\Ефимов\Downloads\cs\Sources1\AppDomainSample\AppDomainSample\obj\Debug\AppDomainDynamicUnload.Properties.Resources.resources
-C:\Users\Ефимов\Downloads\cs\Sources1\AppDomainSample\AppDomainSample\obj\Debug\AppDomainSample.csproj.GenerateResource.cache
-C:\Users\Ефимов\Downloads\cs\Sources1\AppDomainSample\AppDomainSample\obj\Debug\AppDomainSample.csproj.CoreCompileInputs.cache
-C:\Users\Ефимов\Downloads\cs\Sources1\AppDomainSample\AppDomainSample\obj\Debug\AppDomainDynamicUnload.exe
-C:\Users\Ефимов\Downloads\cs\Sources1\AppDomainSample\AppDomainSample\obj\Debug\AppDomainDynamicUnload.pdb

@@ -1,6 +1,0 @@
-C:\Users\Ефимов\Downloads\cs\Sources3\ControlMemory\ControlMemory\bin\Debug\ControlMemory.exe
-C:\Users\Ефимов\Downloads\cs\Sources3\ControlMemory\ControlMemory\bin\Debug\ControlMemory.pdb
-C:\Users\Ефимов\Downloads\cs\Sources3\ControlMemory\ControlMemory\obj\Debug\ControlMemory.csproj.AssemblyReference.cache
-C:\Users\Ефимов\Downloads\cs\Sources3\ControlMemory\ControlMemory\obj\Debug\ControlMemory.csproj.CoreCompileInputs.cache
-C:\Users\Ефимов\Downloads\cs\Sources3\ControlMemory\ControlMemory\obj\Debug\ControlMemory.exe
-C:\Users\Ефимов\Downloads\cs\Sources3\ControlMemory\ControlMemory\obj\Debug\ControlMemory.pdb

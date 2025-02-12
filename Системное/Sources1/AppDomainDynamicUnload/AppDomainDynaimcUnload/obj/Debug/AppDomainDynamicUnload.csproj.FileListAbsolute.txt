@@ -1,6 +1,0 @@
-C:\Users\Ефимов\Downloads\cs\Sources1\AppDomainDynamicUnload\AppDomainDynaimcUnload\bin\Debug\AppDomainSample.exe
-C:\Users\Ефимов\Downloads\cs\Sources1\AppDomainDynamicUnload\AppDomainDynaimcUnload\bin\Debug\AppDomainSample.pdb
-C:\Users\Ефимов\Downloads\cs\Sources1\AppDomainDynamicUnload\AppDomainDynaimcUnload\obj\Debug\AppDomainDynamicUnload.csproj.AssemblyReference.cache
-C:\Users\Ефимов\Downloads\cs\Sources1\AppDomainDynamicUnload\AppDomainDynaimcUnload\obj\Debug\AppDomainDynamicUnload.csproj.CoreCompileInputs.cache
-C:\Users\Ефимов\Downloads\cs\Sources1\AppDomainDynamicUnload\AppDomainDynaimcUnload\obj\Debug\AppDomainSample.exe
-C:\Users\Ефимов\Downloads\cs\Sources1\AppDomainDynamicUnload\AppDomainDynaimcUnload\obj\Debug\AppDomainSample.pdb

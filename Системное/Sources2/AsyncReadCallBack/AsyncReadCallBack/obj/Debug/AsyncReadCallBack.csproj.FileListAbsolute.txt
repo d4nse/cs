@@ -1,6 +1,0 @@
-C:\Users\Ефимов\Downloads\cs\Sources2\AsyncReadCallBack\AsyncReadCallBack\bin\Debug\AsyncReadCallBack.exe
-C:\Users\Ефимов\Downloads\cs\Sources2\AsyncReadCallBack\AsyncReadCallBack\bin\Debug\AsyncReadCallBack.pdb
-C:\Users\Ефимов\Downloads\cs\Sources2\AsyncReadCallBack\AsyncReadCallBack\obj\Debug\AsyncReadCallBack.csproj.AssemblyReference.cache
-C:\Users\Ефимов\Downloads\cs\Sources2\AsyncReadCallBack\AsyncReadCallBack\obj\Debug\AsyncReadCallBack.csproj.CoreCompileInputs.cache
-C:\Users\Ефимов\Downloads\cs\Sources2\AsyncReadCallBack\AsyncReadCallBack\obj\Debug\AsyncReadCallBack.exe
-C:\Users\Ефимов\Downloads\cs\Sources2\AsyncReadCallBack\AsyncReadCallBack\obj\Debug\AsyncReadCallBack.pdb
