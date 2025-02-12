@@ -1,9 +1,0 @@
-C:\Users\Ефимов\Downloads\cs\Sources1\ProcessManipulation\ChildProcess2\bin\Debug\ChildProcess2.exe
-C:\Users\Ефимов\Downloads\cs\Sources1\ProcessManipulation\ChildProcess2\bin\Debug\ChildProcess2.pdb
-C:\Users\Ефимов\Downloads\cs\Sources1\ProcessManipulation\ChildProcess2\obj\Debug\ChildProcess2.csproj.AssemblyReference.cache
-C:\Users\Ефимов\Downloads\cs\Sources1\ProcessManipulation\ChildProcess2\obj\Debug\ChildProcess2.Form1.resources
-C:\Users\Ефимов\Downloads\cs\Sources1\ProcessManipulation\ChildProcess2\obj\Debug\ChildProcess2.Properties.Resources.resources
-C:\Users\Ефимов\Downloads\cs\Sources1\ProcessManipulation\ChildProcess2\obj\Debug\ChildProcess2.csproj.GenerateResource.cache
-C:\Users\Ефимов\Downloads\cs\Sources1\ProcessManipulation\ChildProcess2\obj\Debug\ChildProcess2.csproj.CoreCompileInputs.cache
-C:\Users\Ефимов\Downloads\cs\Sources1\ProcessManipulation\ChildProcess2\obj\Debug\ChildProcess2.exe
-C:\Users\Ефимов\Downloads\cs\Sources1\ProcessManipulation\ChildProcess2\obj\Debug\ChildProcess2.pdb

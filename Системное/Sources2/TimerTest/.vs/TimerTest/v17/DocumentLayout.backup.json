@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u0415\u0444\u0438\u043C\u043E\u0432\\Downloads\\cs\\Sources2\\TimerTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6DD91FC4-9CA3-45F5-B2CB-ED5529C948BD}|TimerTest\\TimerTest.csproj|c:\\users\\\u0435\u0444\u0438\u043C\u043E\u0432\\downloads\\cs\\sources2\\timertest\\timertest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DD91FC4-9CA3-45F5-B2CB-ED5529C948BD}|TimerTest\\TimerTest.csproj|solutionrelative:timertest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u0415\u0444\u0438\u043C\u043E\u0432\\Downloads\\cs\\Sources2\\TimerTest\\TimerTest\\Program.cs",
+              "RelativeDocumentMoniker": "TimerTest\\Program.cs",
+              "ToolTip": "C:\\Users\\\u0415\u0444\u0438\u043C\u043E\u0432\\Downloads\\cs\\Sources2\\TimerTest\\TimerTest\\Program.cs",
+              "RelativeToolTip": "TimerTest\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T15:17:46.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

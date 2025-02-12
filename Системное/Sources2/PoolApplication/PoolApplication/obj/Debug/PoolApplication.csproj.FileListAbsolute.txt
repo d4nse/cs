@@ -1,0 +1,6 @@
+C:\Users\Ефимов\Downloads\cs\Sources2\PoolApplication\PoolApplication\bin\Debug\PoolApplication.exe
+C:\Users\Ефимов\Downloads\cs\Sources2\PoolApplication\PoolApplication\bin\Debug\PoolApplication.pdb
+C:\Users\Ефимов\Downloads\cs\Sources2\PoolApplication\PoolApplication\obj\Debug\PoolApplication.csproj.AssemblyReference.cache
+C:\Users\Ефимов\Downloads\cs\Sources2\PoolApplication\PoolApplication\obj\Debug\PoolApplication.csproj.CoreCompileInputs.cache
+C:\Users\Ефимов\Downloads\cs\Sources2\PoolApplication\PoolApplication\obj\Debug\PoolApplication.exe
+C:\Users\Ефимов\Downloads\cs\Sources2\PoolApplication\PoolApplication\obj\Debug\PoolApplication.pdb

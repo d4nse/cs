@@ -1,0 +1,9 @@
+C:\Users\Ефимов\Downloads\cs\Sources1\CalcRunner\CalcRunner\bin\Debug\CalcRunner.exe
+C:\Users\Ефимов\Downloads\cs\Sources1\CalcRunner\CalcRunner\bin\Debug\CalcRunner.pdb
+C:\Users\Ефимов\Downloads\cs\Sources1\CalcRunner\CalcRunner\obj\Debug\CalcRunner.csproj.AssemblyReference.cache
+C:\Users\Ефимов\Downloads\cs\Sources1\CalcRunner\CalcRunner\obj\Debug\CalcRunner.CalcRunner.resources
+C:\Users\Ефимов\Downloads\cs\Sources1\CalcRunner\CalcRunner\obj\Debug\CalcRunner.Properties.Resources.resources
+C:\Users\Ефимов\Downloads\cs\Sources1\CalcRunner\CalcRunner\obj\Debug\CalcRunner.csproj.GenerateResource.cache
+C:\Users\Ефимов\Downloads\cs\Sources1\CalcRunner\CalcRunner\obj\Debug\CalcRunner.csproj.CoreCompileInputs.cache
+C:\Users\Ефимов\Downloads\cs\Sources1\CalcRunner\CalcRunner\obj\Debug\CalcRunner.exe
+C:\Users\Ефимов\Downloads\cs\Sources1\CalcRunner\CalcRunner\obj\Debug\CalcRunner.pdb

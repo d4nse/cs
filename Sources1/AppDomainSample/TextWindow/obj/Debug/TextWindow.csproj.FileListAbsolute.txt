@@ -1,8 +1,0 @@
-C:\Users\Ефимов\Downloads\cs\Sources1\AppDomainSample\TextWindow\bin\Debug\TextWindow.exe
-C:\Users\Ефимов\Downloads\cs\Sources1\AppDomainSample\TextWindow\bin\Debug\TextWindow.pdb
-C:\Users\Ефимов\Downloads\cs\Sources1\AppDomainSample\TextWindow\obj\Debug\TextWindow.csproj.AssemblyReference.cache
-C:\Users\Ефимов\Downloads\cs\Sources1\AppDomainSample\TextWindow\obj\Debug\TextWindow.Properties.Resources.resources
-C:\Users\Ефимов\Downloads\cs\Sources1\AppDomainSample\TextWindow\obj\Debug\TextWindow.csproj.GenerateResource.cache
-C:\Users\Ефимов\Downloads\cs\Sources1\AppDomainSample\TextWindow\obj\Debug\TextWindow.csproj.CoreCompileInputs.cache
-C:\Users\Ефимов\Downloads\cs\Sources1\AppDomainSample\TextWindow\obj\Debug\TextWindow.exe
-C:\Users\Ефимов\Downloads\cs\Sources1\AppDomainSample\TextWindow\obj\Debug\TextWindow.pdb

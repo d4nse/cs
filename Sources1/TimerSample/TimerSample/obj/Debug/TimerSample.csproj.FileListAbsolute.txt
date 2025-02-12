@@ -1,6 +1,0 @@
-C:\Users\Ефимов\Downloads\cs\Sources1\TimerSample\TimerSample\bin\Debug\TimerSample.exe
-C:\Users\Ефимов\Downloads\cs\Sources1\TimerSample\TimerSample\bin\Debug\TimerSample.pdb
-C:\Users\Ефимов\Downloads\cs\Sources1\TimerSample\TimerSample\obj\Debug\TimerSample.csproj.AssemblyReference.cache
-C:\Users\Ефимов\Downloads\cs\Sources1\TimerSample\TimerSample\obj\Debug\TimerSample.csproj.CoreCompileInputs.cache
-C:\Users\Ефимов\Downloads\cs\Sources1\TimerSample\TimerSample\obj\Debug\TimerSample.exe
-C:\Users\Ефимов\Downloads\cs\Sources1\TimerSample\TimerSample\obj\Debug\TimerSample.pdb

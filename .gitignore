@@ -1,4 +1,5 @@
 
+*.vsidx
 Sources1/ProcessManipulation/.vs/ProcessManipulation/FileContentIndex/61bbfa93-86e7-4234-971e-5d5483ae5acf.vsidx
 Sources1/ProcessManipulation/.vs/ProcessManipulation/FileContentIndex/e10155da-e096-4d73-8433-7be6c407816b.vsidx
 Sources1/ProcessManipulation/.vs/ProcessManipulation/FileContentIndex/bd2d0bc9-da20-4728-93c2-7a4d48e56897.vsidx
@@ -35,3 +36,15 @@ Sources2/AsyncRequest/.vs/AsyncRequest/FileContentIndex/2cff8f0a-646d-4902-b3a5-
 Sources2/InterlockedSync/.vs/InterlockedSync/FileContentIndex/57dcc9c6-33c2-4365-bbcf-e0cc97a9141a.vsidx
 Sources2/LockSync/.vs/LockSync/FileContentIndex/36d16788-53b9-490a-9268-e40e7cffffb7.vsidx
 Sources2/DeadLock/.vs/DeadLock/FileContentIndex/06bb1cb2-df06-45bf-b007-e5dc9abc3480.vsidx
+Sources2/EventSync/.vs/EventSync/FileContentIndex/3a2e704c-dd89-42f4-8123-74557a1c93e7.vsidx
+Sources2/GoodLockSync/.vs/GoodLockSync/FileContentIndex/a1c30681-2536-46b4-8157-b6fb5577553b.vsidx
+Sources2/PoolRegisterEvent/.vs/PoolRegisterEvent/FileContentIndex/5bc0501f-548b-4bb9-9ae7-f734e8bd683b.vsidx
+Sources2/OneInstanceApp/.vs/OneInstanceApp/FileContentIndex/fd325670-b6e6-4fc7-ac51-b2ee9582b584.vsidx
+07.02/WinFormsApp3/.vs/WinFormsApp3/FileContentIndex/bb5419e0-2f5f-4d92-88fe-e6294cd3384d.vsidx
+07.02/WinFormsApp3/.vs/WinFormsApp3/FileContentIndex/aae574e0-a51d-46b7-8c31-af3ed3ead062.vsidx
+24.01/WinFormsApp2/.vs/WinFormsApp2/FileContentIndex/6153b9c9-57d0-45cb-a127-b08301ab7b1b.vsidx
+24.01/WinFormsApp2/.vs/WinFormsApp2/FileContentIndex/689a2650-d8a4-4fd0-875c-3352f092f142.vsidx
+24.01/WinFormsApp2/.vs/WinFormsApp2/FileContentIndex/d78495ea-088f-444f-8a4f-f3b1a0ef4402.vsidx
+Sources1/AppDomainSample/.vs/AppDomainSample/FileContentIndex/e30ed637-1d7f-4870-b264-ca61efbcd494.vsidx
+24.01/WinFormsApp2/.vs/WinFormsApp2/FileContentIndex/6153b9c9-57d0-45cb-a127-b08301ab7b1b.vsidx
+24.01/WinFormsApp2/.vs/WinFormsApp2/FileContentIndex/689a2650-d8a4-4fd0-875c-3352f092f142.vsidx

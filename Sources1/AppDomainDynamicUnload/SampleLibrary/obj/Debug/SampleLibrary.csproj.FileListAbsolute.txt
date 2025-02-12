@@ -1,6 +1,0 @@
-C:\Users\Ефимов\Downloads\cs\Sources1\AppDomainDynamicUnload\SampleLibrary\bin\Debug\SampleLibrary.dll
-C:\Users\Ефимов\Downloads\cs\Sources1\AppDomainDynamicUnload\SampleLibrary\bin\Debug\SampleLibrary.pdb
-C:\Users\Ефимов\Downloads\cs\Sources1\AppDomainDynamicUnload\SampleLibrary\obj\Debug\SampleLibrary.csproj.AssemblyReference.cache
-C:\Users\Ефимов\Downloads\cs\Sources1\AppDomainDynamicUnload\SampleLibrary\obj\Debug\SampleLibrary.csproj.CoreCompileInputs.cache
-C:\Users\Ефимов\Downloads\cs\Sources1\AppDomainDynamicUnload\SampleLibrary\obj\Debug\SampleLibrary.dll
-C:\Users\Ефимов\Downloads\cs\Sources1\AppDomainDynamicUnload\SampleLibrary\obj\Debug\SampleLibrary.pdb

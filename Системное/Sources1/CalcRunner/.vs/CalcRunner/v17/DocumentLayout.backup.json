@@ -1,0 +1,91 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u0415\u0444\u0438\u043C\u043E\u0432\\Downloads\\cs\\Sources1\\CalcRunner\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{01236F43-175F-46BD-97DD-472EC5753CB8}|CalcRunner\\CalcRunner.csproj|c:\\users\\\u0435\u0444\u0438\u043C\u043E\u0432\\downloads\\cs\\sources1\\calcrunner\\calcrunner\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01236F43-175F-46BD-97DD-472EC5753CB8}|CalcRunner\\CalcRunner.csproj|solutionrelative:calcrunner\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01236F43-175F-46BD-97DD-472EC5753CB8}|CalcRunner\\CalcRunner.csproj|c:\\users\\\u0435\u0444\u0438\u043C\u043E\u0432\\downloads\\cs\\sources1\\calcrunner\\calcrunner\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{01236F43-175F-46BD-97DD-472EC5753CB8}|CalcRunner\\CalcRunner.csproj|solutionrelative:calcrunner\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01236F43-175F-46BD-97DD-472EC5753CB8}|CalcRunner\\CalcRunner.csproj|c:\\users\\\u0435\u0444\u0438\u043C\u043E\u0432\\downloads\\cs\\sources1\\calcrunner\\calcrunner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01236F43-175F-46BD-97DD-472EC5753CB8}|CalcRunner\\CalcRunner.csproj|solutionrelative:calcrunner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01236F43-175F-46BD-97DD-472EC5753CB8}|CalcRunner\\CalcRunner.csproj|c:\\users\\\u0435\u0444\u0438\u043C\u043E\u0432\\downloads\\cs\\sources1\\calcrunner\\calcrunner\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01236F43-175F-46BD-97DD-472EC5753CB8}|CalcRunner\\CalcRunner.csproj|solutionrelative:calcrunner\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\\u0415\u0444\u0438\u043C\u043E\u0432\\Downloads\\cs\\Sources1\\CalcRunner\\CalcRunner\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "CalcRunner\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\\u0415\u0444\u0438\u043C\u043E\u0432\\Downloads\\cs\\Sources1\\CalcRunner\\CalcRunner\\Form1.Designer.cs",
+              "RelativeToolTip": "CalcRunner\\Form1.Designer.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T15:14:02.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u0415\u0444\u0438\u043C\u043E\u0432\\Downloads\\cs\\Sources1\\CalcRunner\\CalcRunner\\Program.cs",
+              "RelativeDocumentMoniker": "CalcRunner\\Program.cs",
+              "ToolTip": "C:\\Users\\\u0415\u0444\u0438\u043C\u043E\u0432\\Downloads\\cs\\Sources1\\CalcRunner\\CalcRunner\\Program.cs",
+              "RelativeToolTip": "CalcRunner\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T15:13:51.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\\u0415\u0444\u0438\u043C\u043E\u0432\\Downloads\\cs\\Sources1\\CalcRunner\\CalcRunner\\Form1.cs",
+              "RelativeDocumentMoniker": "CalcRunner\\Form1.cs",
+              "ToolTip": "C:\\Users\\\u0415\u0444\u0438\u043C\u043E\u0432\\Downloads\\cs\\Sources1\\CalcRunner\\CalcRunner\\Form1.cs",
+              "RelativeToolTip": "CalcRunner\\Form1.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T15:13:40.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\\u0415\u0444\u0438\u043C\u043E\u0432\\Downloads\\cs\\Sources1\\CalcRunner\\CalcRunner\\Form1.cs",
+              "RelativeDocumentMoniker": "CalcRunner\\Form1.cs",
+              "ToolTip": "C:\\Users\\\u0415\u0444\u0438\u043C\u043E\u0432\\Downloads\\cs\\Sources1\\CalcRunner\\CalcRunner\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "CalcRunner\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T12:36:51.255Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

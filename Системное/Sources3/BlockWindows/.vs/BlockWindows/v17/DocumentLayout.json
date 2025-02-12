@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u0415\u0444\u0438\u043C\u043E\u0432\\Downloads\\cs\\Sources3\\BlockWindows\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{08911BDB-85C8-4C1C-B0E7-04224ED91B51}|BlockWindows\\BlockWindows.csproj|c:\\users\\\u0435\u0444\u0438\u043C\u043E\u0432\\downloads\\cs\\sources3\\blockwindows\\blockwindows\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08911BDB-85C8-4C1C-B0E7-04224ED91B51}|BlockWindows\\BlockWindows.csproj|solutionrelative:blockwindows\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u0415\u0444\u0438\u043C\u043E\u0432\\Downloads\\cs\\Sources3\\BlockWindows\\BlockWindows\\Program.cs",
+              "RelativeDocumentMoniker": "BlockWindows\\Program.cs",
+              "ToolTip": "C:\\Users\\\u0415\u0444\u0438\u043C\u043E\u0432\\Downloads\\cs\\Sources3\\BlockWindows\\BlockWindows\\Program.cs",
+              "RelativeToolTip": "BlockWindows\\Program.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAkwDYAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T15:00:31.682Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+namespace WinFormsApp2
+{
+    public partial class Form1 : Form
+    {
+        private SemaphoreSlim semaphore;
+        private int maxCount = 5;
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void кнопка создать поток
+        {
+            создать новый
+            добавляем в список созданных
+            увеличение номера
+        }
+
+        private работа потока
+        {
+            увеличивать локальный счетчик
+            перемещать поток в ожидающие
+        }
+
+        private перемещение потока между списками
+        {
+
+        }
+
+        private двойной клик
+        {
+            завершение потока
+            освобождение места
+        }
+
+        private перемещение из ожидания в рабочие
+        {
+            проверка наличия свободного места
+                перемещение
+        }
+
+        private UpdateFormSize()
+
+        private void UpdateCounter(int ThreadNumber, int count)
+    
+    }
+}

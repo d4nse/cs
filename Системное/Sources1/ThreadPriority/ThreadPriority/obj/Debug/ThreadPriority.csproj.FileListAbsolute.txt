@@ -1,0 +1,6 @@
+C:\Users\Ефимов\Downloads\cs\Sources1\ThreadPriority\ThreadPriority\bin\Debug\ThreadPriority.exe
+C:\Users\Ефимов\Downloads\cs\Sources1\ThreadPriority\ThreadPriority\bin\Debug\ThreadPriority.pdb
+C:\Users\Ефимов\Downloads\cs\Sources1\ThreadPriority\ThreadPriority\obj\Debug\ThreadPriority.csproj.AssemblyReference.cache
+C:\Users\Ефимов\Downloads\cs\Sources1\ThreadPriority\ThreadPriority\obj\Debug\ThreadPriority.csproj.CoreCompileInputs.cache
+C:\Users\Ефимов\Downloads\cs\Sources1\ThreadPriority\ThreadPriority\obj\Debug\ThreadPriority.exe
+C:\Users\Ефимов\Downloads\cs\Sources1\ThreadPriority\ThreadPriority\obj\Debug\ThreadPriority.pdb

@@ -1,0 +1,59 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u0415\u0444\u0438\u043C\u043E\u0432\\Downloads\\cs\\Sources3\\ControlMemory\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDB8928-6175-48A6-B15C-8ACC6CEF428D}|ControlMemory\\ControlMemory.csproj|c:\\users\\\u0435\u0444\u0438\u043C\u043E\u0432\\downloads\\cs\\sources3\\controlmemory\\controlmemory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFDB8928-6175-48A6-B15C-8ACC6CEF428D}|ControlMemory\\ControlMemory.csproj|solutionrelative:controlmemory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|ControlMemory||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDB8928-6175-48A6-B15C-8ACC6CEF428D}|ControlMemory\\ControlMemory.csproj|c:\\users\\\u0435\u0444\u0438\u043C\u043E\u0432\\downloads\\cs\\sources3\\controlmemory\\controlmemory\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|a54ad834-9219-4aa6-b589-607af21c3e26"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ControlMemory",
+              "DocumentMoniker": "C:\\Users\\\u0415\u0444\u0438\u043C\u043E\u0432\\Downloads\\cs\\Sources3\\ControlMemory\\ControlMemory\\ControlMemory.csproj",
+              "RelativeDocumentMoniker": "ControlMemory\\ControlMemory.csproj",
+              "ToolTip": "C:\\Users\\\u0415\u0444\u0438\u043C\u043E\u0432\\Downloads\\cs\\Sources3\\ControlMemory\\ControlMemory\\ControlMemory.csproj",
+              "RelativeToolTip": "ControlMemory\\ControlMemory.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-03T17:51:51.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u0415\u0444\u0438\u043C\u043E\u0432\\Downloads\\cs\\Sources3\\ControlMemory\\ControlMemory\\Program.cs",
+              "RelativeDocumentMoniker": "ControlMemory\\Program.cs",
+              "ToolTip": "C:\\Users\\\u0415\u0444\u0438\u043C\u043E\u0432\\Downloads\\cs\\Sources3\\ControlMemory\\ControlMemory\\Program.cs",
+              "RelativeToolTip": "ControlMemory\\Program.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAmwLEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T14:53:28.479Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
