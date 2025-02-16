@@ -1,0 +1,29 @@
+﻿@model RecipeServer.Models.RecipeRequest
+
+<div class="container mt-5">
+    <h1>Recipe Server</h1>
+
+    <form asp-action="GenerateRecipe" method="post">
+        <div class="form-group">
+            <label>Ingredients:</label>
+            <textarea asp-for="Ingredients" class="form-control" rows="4"
+                      placeholder="Enter ingredients (comma-separated)"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary mt-3">Request Recipe</button>
+    </form>
+
+    @if (!string.IsNullOrEmpty(Model.GeneratedRecipe))
+    {
+        <div class="mt-4">
+            <h3>Suggested Recipe:</h3>
+            <p>@Model.GeneratedRecipe</p>
+
+            @if (!string.IsNullOrEmpty(Model.ImagePath))
+            {
+                <img src="@Model.ImagePath" class="img-fluid mt-3"
+                     alt="Recipe Image" style="max-width: 500px;">
+            }
+        </div>
+    }
+</div>
