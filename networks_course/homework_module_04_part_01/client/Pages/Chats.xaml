@@ -1,0 +1,58 @@
+﻿<Page x:Class="client.Pages.Chats"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:client.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Chats" Loaded="Page_Loaded">
+    <Page.Resources>
+        <local:BubbleBackgroundConverter x:Key="BubbleBackgroundConverter" />
+        <local:HorizontalAlignConverter x:Key="HorizontalAlignConverter"/>
+    </Page.Resources>
+    <Grid x:Name="PageGrid" Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid x:Name="ChatListGrid" Grid.Column="0" Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Button x:Name="CreateChatButton" Content="Create Chat" Click="CreateChatButton_Click" />
+            <Button x:Name="FindChatButton" Content="Find Chat" Grid.Row="1" Click="FindChatButton_Click"/>
+            <ListBox x:Name="ChatListBox" Background="{x:Null}" Grid.Row="2" SelectionChanged="ChatListBox_SelectionChanged"/>
+        </Grid>
+        <Grid x:Name="ChatViewGrid" Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="40"/>
+            </Grid.RowDefinitions>
+            <TextBlock x:Name="ChatTitleBlock" FontSize="16" TextAlignment="Center"/>
+            <TextBox x:Name="ChatInputBox" TextWrapping="Wrap" FontSize="12" KeyDown="ChatInputBox_KeyDown" BorderThickness="1,1,0,0" ScrollViewer.CanContentScroll="True" VerticalScrollBarVisibility="Disabled" Grid.Row="2" Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" VerticalContentAlignment="Center" Padding="20,0,20,0"/>
+            <ListBox x:Name="ChatMessageBox" ItemsSource="{Binding Messages}" BorderBrush="{x:Null}" FontSize="16" ScrollViewer.CanContentScroll="True" Grid.Row="1">
+                <ListBox.ItemContainerStyle>
+                    <Style TargetType="ListBoxItem">
+                        <Setter Property="HorizontalContentAlignment" Value="{Binding IsSentByUser, Converter={StaticResource HorizontalAlignConverter}}"/>
+                    </Style>
+                </ListBox.ItemContainerStyle>
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Border x:Name="bubble" Padding="5" CornerRadius="5" MaxWidth="300" Margin="5,5,5,5"
+                    Background="{Binding IsSentByUser, Converter={StaticResource BubbleBackgroundConverter}}" MinWidth="50">
+                            <StackPanel x:Name="bubble_content">
+                                <TextBlock Text="{Binding From}" FontWeight="Bold"/>
+                                <TextBlock Text="{Binding Text}" TextWrapping="Wrap" />
+                            </StackPanel>
+                        </Border>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </Grid>
+        
+    </Grid>
+</Page>

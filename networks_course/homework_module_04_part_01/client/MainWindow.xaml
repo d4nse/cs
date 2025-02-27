@@ -1,0 +1,35 @@
+﻿<Window x:Class="client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:client"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" WindowStyle="None" Background="{x:Null}" AllowsTransparency="True" BorderBrush="#FF9C9C9C" BorderThickness="1,1,1,1">
+    <Grid x:Name="main_grid">
+        <Grid.RowDefinitions>
+            <RowDefinition x:Name="header_row" Height="30"/>
+            <RowDefinition x:Name="body_row"/>
+        </Grid.RowDefinitions>
+
+        <!-- Custom Header -->
+        <Grid x:Name="Header" Height="30" Background="White" MouseLeftButtonDown="Header_MouseLeftButtonDown" VerticalAlignment="Top" MouseLeftButtonUp="Header_MouseLeftButtonUp" MouseMove="Header_MouseMove">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition Width="80" />
+            </Grid.ColumnDefinitions>
+            <Rectangle x:Name="headerRectangle" Fill="White"/>
+            <TextBlock Text="Chatiquette" Foreground="Black" HorizontalAlignment="Left" VerticalAlignment="Center" Padding="10,0,0,0" FontSize="14"/>
+            <Button x:Name="MinimizeWindowButton" Grid.Column="2" Content="_" Click="MinimizeWindowButton_Click" Background="Transparent" Foreground="Black" FontWeight="Bold" BorderThickness="0,0,0,0" BorderBrush="{x:Null}"/>
+            <Button x:Name="CloseWindowButton" Grid.Column="3" Content="X" Click="CloseWindowButton_Click" Foreground="White" FontWeight="Bold" Background="#FFDE4040" BorderBrush="{x:Null}" BorderThickness="0,0,0,0"/>
+        </Grid>
+
+        <!-- Body -->
+        <Grid x:Name="body" Grid.Row="1" Background="White">
+            <Frame x:Name="mainFrame" Grid.Column="1" Content="" NavigationUIVisibility="Hidden"/>
+        </Grid>
+
+    </Grid>
+</Window>
