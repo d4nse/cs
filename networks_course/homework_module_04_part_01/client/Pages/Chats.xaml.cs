@@ -2,6 +2,7 @@
 using System.Collections.ObjectModel;
 using System.Collections.Specialized;
 using System.Globalization;
+using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -47,7 +48,6 @@ public partial class Chats : Page {
         try {
             while (true) {
                 var response = await Client.ListenForResponse();
-                MessageBox.Show($"{Profile.Username}: Got response: {response.ToJson()}");
                 switch (response.Type) {
                 case ResponseType.IncomingMessage: HandleIncomingMessage(response); break;
                 case ResponseType.SentMessageReceived: HandleSentMessageReceived(response); break;
@@ -57,7 +57,7 @@ public partial class Chats : Page {
                 }
             }
         } catch (Exception ex) {
-            MessageBox.Show($"{ex.Message} : {ex.StackTrace}");
+            MessageBox.Show($"Error occured: {ex.Message} : {ex.StackTrace}");
         }
     }
 
@@ -73,6 +73,7 @@ public partial class Chats : Page {
 
     private void HandleSentMessageReceived(Response response) {
         LastMessageSent.IsSentByUser = true;
+        LastMessageSent.Text = Regex.Replace(LastMessageSent.Text, response.Text, "[FILTERED]", RegexOptions.IgnoreCase);
         RoomMessages[SelectedChat].Add(LastMessageSent);
     }
 
@@ -150,6 +151,8 @@ public partial class Chats : Page {
         var dialog = new InputDialog(InputDialogType.CreateChat);
         if (dialog.ShowDialog() == true) {
             WhateverThisIs = dialog.ChatTitle;
+            if (dialog.Whitelist != null)
+                dialog.Whitelist.Add(Profile.Username);
             var request = new CreateChatRequest() {
                 ChatTitle = dialog.ChatTitle,
                 Whitelist = dialog.Whitelist,

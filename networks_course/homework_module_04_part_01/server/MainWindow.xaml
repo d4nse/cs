@@ -29,10 +29,12 @@
         <!-- Body -->
         <Grid x:Name="body" Grid.Row="1" Background="White">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="300"/>
+                <ColumnDefinition Width="200"/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <Rectangle Fill="#FFE6E6E6"/>
+            <Grid Grid.Column="0" Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}">
+                <Button x:Name="BanUserButton" Content="Ban User" VerticalAlignment="Top" Height="36" Click="BanUserButton_Click"/>
+            </Grid>
             <Label Grid.Column="1" Content="Log" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="24" Padding="15,5,5,5"/>
             <TextBox x:Name="logbox" Grid.Column="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="373" Margin="0,47,0,0" IsReadOnly="True" ScrollViewer.CanContentScroll="True"/>
         </Grid>

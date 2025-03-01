@@ -2,18 +2,25 @@
 using System.IO;
 using System.Net;
 using System.Net.Sockets;
+using System.Text.RegularExpressions;
+using System.Windows.Threading;
 
 namespace server;
 
 public class Server {
     private TcpListener listener;
     private Logger logger;
+    private DispatcherTimer timer;
 
     public Server(ref Logger logger) {
         listener = new(IPAddress.Any, 6969);
         this.logger = logger;
         ChatroomService.TryCreateChatroom("Hall");
+        timer = new();
+        timer.Interval = TimeSpan.FromHours(1);
+        timer.Tick += Timer_Tick;
     }
+
 
     public async Task Start() {
         listener.Start();
@@ -60,6 +67,10 @@ public class Server {
     }
 
     private ResponseWrapper HandleAuthenticateUser(AuthenticateUserRequest request, ClientHandler client) {
+        if (AuthService.IsUserBanned(request.Username, out var unbanDate)) {
+            var until = unbanDate == null ? "FOREVER" : unbanDate.ToString();
+            return Response.Failure(ResponseType.Authenticated, $"You are banned until {until}").Wrap(true);
+        }
         if (AuthService.TryAuthenticateUser(request.Username, request.Hashword, out UserProfile profile)) {
             AuthService.AddOnlineUser(client, profile);
             return new Response() {
@@ -72,10 +83,15 @@ public class Server {
 
     private async Task<ResponseWrapper> HandleSendMessage(SendMessageRequest request) {
         try {
+            var message = request.Message;
+            if (CensorshipService.CensorMessage(message, out message)) {
+                logger.Warn($"ATTENTION! User '{request.Message.From}' has said some naughty shit and was filtered!");
+            }
             var chat = ChatroomService.GetChatroom(request.ChatTitle);
-            await ChatroomService.BroadcastInChat(chat, request.Message);
+            await ChatroomService.BroadcastInChat(chat, message);
             return new Response() {
                 Success = true,
+                Text = CensorshipService.Pattern,
                 Type = ResponseType.SentMessageReceived,
             }.Wrap();
         } catch (Exception ex) {
@@ -100,7 +116,43 @@ public class Server {
         }
     }
 
+    // Event handlers
+
+    private void Timer_Tick(object? sender, EventArgs e) {
+        CheckForBanExpirations();
+    }
+
+    private void CheckForBanExpirations() {
+        var userBans = AuthService.GetUserBans();
+        var dateNow = DateTime.Now;
+        foreach (var kvp in userBans) {
+            var username = kvp.Key;
+            var unbanDate = kvp.Value;
+            if (unbanDate == null) continue;
+            if (dateNow > unbanDate) {
+                AuthService.TryUnbanUser(username);
+            }
+        }
+    }
+
     // Services
+    private static class CensorshipService {
+        private static List<string> ForbiddenWords = new() {
+            "cunt", "faggot", "nigger", "retard", "kill yourself", "kys", "nigga", "niga", "fuck", "asshole"
+        };
+        public static string Pattern = string.Join("|", ForbiddenWords);
+        public static string Replacement = "[FILTERED]";
+
+        public static bool CensorMessage(ChatMessage message, out ChatMessage outMessage) {
+            outMessage = message;
+            if (Regex.IsMatch(outMessage.Text, Pattern)) {
+                outMessage.Text = Regex.Replace(message.Text, Pattern, Replacement, RegexOptions.IgnoreCase);
+                return true;
+            }
+            return true;
+        }
+    }
+
     private static class ChatroomService {
         private static Dictionary<string, Chatroom> Rooms = new();
 
@@ -148,10 +200,29 @@ public class Server {
 
     }
 
-    private static class AuthService {
+    public static class AuthService {
         private static Dictionary<string, UserProfile> UserProfiles = new();
         private static Dictionary<string, string> UserHashwords = new();
         private static Dictionary<ClientHandler, UserProfile> OnlineUsers = new();
+        private static Dictionary<string, DateTime?> UserBans = new();
+
+        public static bool TryBanUser(string username, DateTime? unbanDate) {
+            if (UserBans.TryGetValue(username, out var outUnbanDate)) {
+                return false;
+            }
+            UserBans.Add(username, unbanDate);
+            return true;
+        }
+
+        public static bool TryUnbanUser(string username) {
+            return UserBans.Remove(username);
+        }
+
+        public static bool IsUserBanned(string username, out DateTime? unbanDate) {
+            return UserBans.TryGetValue(username, out unbanDate);
+        }
+
+        public static Dictionary<string, DateTime?> GetUserBans() => UserBans;
 
         public static void AddOnlineUser(ClientHandler client, UserProfile profile) {
             OnlineUsers.Add(client, profile);
